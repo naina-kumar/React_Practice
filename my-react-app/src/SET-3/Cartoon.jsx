@@ -36,6 +36,7 @@ const Cartoon = () => {
   return (
     <div>
      {cartoons.filter((items)=>items.magnitude>5).map((items)=><div>{items.id}{items.name}{items.superpower}{items.magnitude}</div>)}
+     Hello Doremon
     </div>
   )
 }
